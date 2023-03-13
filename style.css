@@ -34,12 +34,14 @@ main{
     padding: 15px;
     border-radius: 10px;
     margin: 10px;
-    width: 600px;
+    width: 500px;
     background-color: lightblue;
 }
 
 .feed{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .miniatura-artigo h2 {
