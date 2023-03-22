@@ -16,7 +16,8 @@ body{
 
 main{
     padding: 15px;
-
+    max-width: 900px;
+    margin: auto;
 }
 
 img{
