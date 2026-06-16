@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="bg" cx=".25" cy=".15" r=".95"><stop stop-color="#fff"/><stop offset=".55" stop-color="#efded6"/><stop offset="1" stop-color="#caa197"/></radialGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".5" stop-color="#c0c1c4"/><stop offset="1" stop-color="#f7f7f7"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#40312c" flood-opacity=".17"/></filter>
+  </defs>
+  <rect width="800" height="800" rx="52" fill="url(#bg)"/>
+  <rect x="156" y="506" width="488" height="82" rx="41" fill="#fff" opacity=".65"/>
+  <path d="M258 376c65-73 211-76 287-8" fill="none" stroke="url(#silver)" stroke-width="24" stroke-linecap="round" filter="url(#s)"/>
+  <path d="M546 368c47 51 29 119-45 143-75 25-181 5-238-46" fill="none" stroke="url(#silver)" stroke-width="24" stroke-linecap="round" filter="url(#s)"/>
+  <path d="M516 338h44l26 34-48 48-48-48z" fill="url(#silver)" filter="url(#s)"/>
+  <path d="M201 243c34-21 68-21 104 1" fill="none" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".42"/>
+</svg>

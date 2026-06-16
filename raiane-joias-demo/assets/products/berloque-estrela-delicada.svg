@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="bg" cx=".65" cy=".2" r=".95"><stop stop-color="#fff"/><stop offset=".55" stop-color="#f0ded6"/><stop offset="1" stop-color="#cba297"/></radialGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".5" stop-color="#c1c2c5"/><stop offset="1" stop-color="#f7f7f7"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#44342f" flood-opacity=".17"/></filter>
+  </defs>
+  <rect width="800" height="800" rx="52" fill="url(#bg)"/>
+  <path d="M92 586c126-92 253-98 382-51 91 33 163 22 240-26v291H92z" fill="#fff8f3" opacity=".78"/>
+  <circle cx="400" cy="268" r="42" fill="none" stroke="url(#silver)" stroke-width="16" filter="url(#s)"/>
+  <path d="M400 326l41 85 94 13-68 66 16 93-83-44-83 44 16-93-68-66 94-13z" fill="url(#silver)" filter="url(#s)"/>
+  <path d="M400 326v213M359 411h82M333 490h134" stroke="#fff" stroke-width="6" opacity=".62"/>
+  <g fill="#fff"><circle cx="592" cy="235" r="6"/><circle cx="628" cy="284" r="4"/><circle cx="206" cy="280" r="4"/></g>
+</svg>

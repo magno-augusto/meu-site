@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffaf6"/><stop offset=".6" stop-color="#efdcd4"/><stop offset="1" stop-color="#cda095"/></linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".5" stop-color="#c2c3c6"/><stop offset="1" stop-color="#f8f8f8"/></linearGradient>
+    <filter id="s"><feDropShadow dx="0" dy="22" stdDeviation="23" flood-color="#3f302b" flood-opacity=".18"/></filter>
+  </defs>
+  <rect width="800" height="800" rx="52" fill="url(#bg)"/>
+  <rect x="158" y="480" width="484" height="104" rx="52" fill="#fff" opacity=".7"/>
+  <path d="M250 244c97-58 203-52 301 7" fill="none" stroke="#fff" stroke-width="13" stroke-linecap="round" opacity=".52"/>
+  <circle cx="400" cy="278" r="43" fill="none" stroke="url(#silver)" stroke-width="16" filter="url(#s)"/>
+  <path d="M400 507c-112-79-168-143-127-221 33-62 123-55 127 20 4-75 94-82 127-20 41 78-15 142-127 221z" fill="url(#silver)" filter="url(#s)"/>
+  <path d="M322 292c-22 49 14 92 78 141" fill="none" stroke="#fff" stroke-width="8" opacity=".65"/>
+  <path d="M594 552c-32 14-63 12-92-5" fill="none" stroke="#caa49a" stroke-width="7" stroke-linecap="round" opacity=".45"/>
+</svg>

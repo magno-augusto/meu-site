@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="bg" cx=".72" cy=".16" r=".94"><stop stop-color="#fff"/><stop offset=".52" stop-color="#f1dfd7"/><stop offset="1" stop-color="#caa197"/></radialGradient>
+    <radialGradient id="silver" cx=".35" cy=".25" r=".8"><stop stop-color="#fff"/><stop offset=".54" stop-color="#d2d3d4"/><stop offset="1" stop-color="#aaaeb1"/></radialGradient>
+    <filter id="s"><feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#44342f" flood-opacity=".16"/></filter>
+  </defs>
+  <rect width="800" height="800" rx="52" fill="url(#bg)"/>
+  <path d="M86 580c126-89 252-99 387-49 94 35 166 23 241-27v296H86z" fill="#fff8f3" opacity=".8"/>
+  <path d="M218 210c37 173 325 173 364 0" fill="none" stroke="#d6d6d6" stroke-width="12" stroke-linecap="round" filter="url(#s)"/>
+  <circle cx="400" cy="452" r="48" fill="url(#silver)" filter="url(#s)"/>
+  <circle cx="381" cy="433" r="15" fill="#fff"/>
+  <g fill="#fff"><circle cx="560" cy="266" r="5"/><circle cx="598" cy="314" r="4"/><circle cx="225" cy="301" r="4"/></g>
+</svg>
